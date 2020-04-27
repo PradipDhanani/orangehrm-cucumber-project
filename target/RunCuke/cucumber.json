@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 54290208200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should navigate to Dashboard elements",
+        "description": "",
+        "id": "navigate-to-dashboard-elements;verify-user-should-navigate-to-dashboard-elements",
+        "after": [
+          {
+            "result": {
+              "duration": 159200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37286495100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Admin page",
+            "match": {
+              "location": "DashBoardTest.iAmOnAdminPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7534384900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Admin Button",
+            "match": {
+              "location": "DashBoardTest.clickOnAdminButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11906048900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Add button",
+            "match": {
+              "location": "DashBoardTest.clickOnAddButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154932200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see Add User button",
+            "match": {
+              "location": "DashBoardTest.iShouldSeeAddUserButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 67037105500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify user should navigate to MarketPlace element",
+        "description": "",
+        "id": "navigate-to-dashboard-elements;verify-user-should-navigate-to-marketplace-element",
+        "after": [
+          {
+            "result": {
+              "duration": 84600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16691491300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on Admin page",
+            "match": {
+              "location": "DashBoardTest.iAmOnAdminPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7599474600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on MarketPlace Button",
+            "match": {
+              "location": "DashBoardTest.clickOnMarketPlaceButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20218360300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see OrangeHRM Addons on page",
+            "match": {
+              "location": "DashBoardTest.iShouldSeeOrangeHRMAddonsOnPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to Dashboard elements",
+    "description": "As a user\r\nI want to visit Orange Hrm website",
+    "id": "navigate-to-dashboard-elements",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/orangehrm/resources/featurefile/dashboard.feature"
+  }
+]
